@@ -17,9 +17,9 @@ Once you have that in place, you should be able to generate new cards:
 Enter a German word: weggehen        
 Done!
 ```
-The output is a .txt file that one can upload to the Anki deck via their app. You should look something like: this:
+The output is a .txt file that one can upload to the Anki deck via their app. It should look something like this:
 ![Sample Card](sample.png)
 
-Note the a complementary English-German card is also created! There's also a small function showing how to run this for more than one word at a time: [generate_multiple_cards.py](./generate_multiple_cards.py).
+Note that a complementary English-German card is also created! There's also a small function showing how to run this for more than one word at a time: [generate_multiple_cards.py](./generate_multiple_cards.py).
 
 This is was not "vibe-coded", but it was done fairly quickly, so bugs abound!🐛
