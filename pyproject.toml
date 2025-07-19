@@ -1,0 +1,14 @@
+[project]
+name = "anki-card-generator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "bs4>=0.0.2",
+    "jupyter>=1.1.1",
+    "ollama>=0.5.1",
+    "openai>=1.97.0",
+    "requests>=2.32.4",
+    "tqdm>=4.67.1",
+]
