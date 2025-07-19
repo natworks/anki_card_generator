@@ -1,0 +1,1 @@
+Create a new ANKI card for a new word
