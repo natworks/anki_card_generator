@@ -1,8 +1,8 @@
 import os
 import helper
 
-MEDIA_OUTPUT_DIR = "~/Library/Application Support/Anki2/User 1/collection.media"
-CARD_OUTPUT_DIR = "~/Desktop"
+MEDIA_OUTPUT_DIR = os.path.expanduser("~/Library/Application Support/Anki2/User 1/collection.media")
+CARD_OUTPUT_DIR = os.path.expanduser("~/Desktop")
 
 
 def generate_anki_card(input_word, return_header=True):
