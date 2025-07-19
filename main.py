@@ -25,7 +25,7 @@ def generate_anki_card(input_word, return_header=True):
     sound_file = os.path.basename(audio_url)
     output_file  = os.path.join(MEDIA_OUTPUT_DIR, sound_file)
     if not os.path.exists(output_file):
-        sound_file = helper.download_file(audio_url, output_file)
+        helper.download_file(audio_url, output_file)
 
     word_class = spans[0].text.strip().split("·")[0].strip()
 

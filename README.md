@@ -9,10 +9,13 @@ In case one wants to adapt this to their own needs:
 ### Installation
 1) If not already downloaded, get [uv](https://docs.astral.sh/uv/#installation)
 2) You also need to install [Ollama](https://ollama.com) and then download the model: `ollama pull gemma3n:e4b`
+3) Run `uv sync`
 
-Once you have that in place: 
+Once you have that in place, you should be able to generate new cards: 
 ```
-uv sync
-uv run main.py
+%% uv run main.py
+Enter a German word: weggehen        
+Done!
 ```
-
+The card now looks something like this:
+![Sample Card](sample.png)
